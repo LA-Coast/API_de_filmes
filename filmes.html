@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Filmes</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="corpo">
+    <!--Cabeçalho principal-->
+    <div class="container_cabeçalho">
+      <h1 class="cabeçalho">Filmes Populares</h1>
+    </div>
+
+    <!--Caixa de pesquisa-->
+    <div class="container_pesquisa">
+      <div class="caixa_filhos">
+        <input type="text" name="nome-filme" id="nome-filme" placeholder="Digite algum filme para pesquisar..." class="pesquisa">
+        <img
+          src="/pesquisa.png"
+          alt="icone de pesquisa"
+          class="icone_pesquisa"
+        />
+      </div>
+    </div>
+
+    <!--Caixa do check-box-->
+    <div class="container_check">
+      <input
+        type="checkbox"
+        id="mostrar_favoritos"
+        name="mostrar_favoritos"
+        class="icone_check"
+      />
+      <label for="mostrar_favoritos" class="rotulo"
+        >Mostrar meus filmes favoritos apenas</label
+      >
+    </div>
+
+    <!--Caixa do Filme-->
+    <div class="container_filme">
+      <img
+        src="/barbie.png"
+        alt="icone do filme da Barbie"
+        class="container_logo"
+      />
+      <div class="container_info">
+        <p>Barbie(2023)</p>
+        <div class="container_nota_fav">
+          <p>&starf; 7.7</p>
+          <p>&hearts; Favoritar</p>
+        </div>
+      </div>
+      <p class="container_texto">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book.
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+/* aqui fica o estilo/layout do body*/
+.corpo{
+    background-color: #17162E;
+}
+
+/* aqui fica o estilo/layout do cabeçalho*/
+.container_cabeçalho{
+    display: flex;
+    justify-content: center;
+    margin-top: 62px;
+    margin-left: 579px;
+    margin-right: 579px;
+    margin-bottom: 48px;
+}
+.cabeçalho{
+    width: 282px;
+    height: 45px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}
+
+/* aqui fica o estilo/layout do caixa de pesquisa*/
+.container_pesquisa{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-left: 403px;
+    margin-right: 403px;
+    margin-bottom: 0;
+}
+.caixa_filhos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 634px;
+    height: 74px;
+    border-radius: 8px;
+    opacity: 0.2px;
+}
+.pesquisa{
+    width: 293px;
+    height: 22px;
+    margin-left: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8A8A8A;
+}
+.icone_pesquisa{
+    width: 18.35px;
+    height: 19.35px;
+    margin-right: 24.65px;
+    text-align: right;
+}
+
+/* aqui fica o estilo/layout do caixa de pesquisa*/
+.container_check{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.icone_check{
+    color: #FFFFFF;
+    border: 1.13px solid #FFFFFF;
+    width: 16px;
+    height: 16px;
+    top: 262px;
+    left: 550px;
+    border-radius: 4px;
+    border: 2px solid #706EA8;
+    background-color: linear-gradient(0deg, #706EA8, #706EA8);
+}
+.rotulo{
+    width: 313px;
+    height: 22px;
+    top: 259px;
+    left: 577px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+/* aqui fica o estilo/layout do caixa do filme*/
+.container_filme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1224px;
+    height: 201px;
+    margin-top: 64px;
+    margin-left: 108px;
+    margin-right: 108px;
+    background: #1D1C3B;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+}
+.container_logo{
+    width: 139px;
+    max-width: 1024px;
+    height: 139px;
+    top: 24px;
+    left: 46px;
+    border-radius: 800px;
+    margin-top: 24px;
+    margin-left: 46px;
+    margin-bottom: 38px;
+    margin-right: 64px;
+}
+.container_info{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    width: 268px;
+    height: 21px;
+    margin-top: 64px;
+    margin-left: 0px;
+    margin-bottom: 58px;
+    margin-right: 78px;
+}
+.container_nota_fav{
+    display: flex;
+    justify-content: space-between;
+}
+.container_texto{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ACACAC;
+    width: 592px;
+    height: 128px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-bottom: 43px;
+    margin-right: 37px;
+}
